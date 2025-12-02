@@ -12,9 +12,13 @@
     }
 
 .p1 {
-  font-family:monospace;
+  font-family:"ani", monospace;
 }
 
 .p2 {
   font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+  color:palevioletred;
+  font-family: monospace;
 }

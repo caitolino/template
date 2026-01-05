@@ -18,7 +18,34 @@
 .p2 {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.title,
+.title2 {
+  font-family:"ani", monospace;
+}
 footer {
   color:palevioletred;
   font-family: monospace;
+}
+
+.title {
+  background-color:bisque;
+}
+
+.title2 {
+  background-color: pink;
+}
+
+#head {
+  background-color: burlywood;
+  border: 10px solid rgba(206, 65, 131,0.3);
+  color: rgba(206, 65, 131,0.5);
+}
+
+.subsec#bowl {
+  color: palevioletred;
+}
+
+.input.yes {
+  color:goldenrod
 }

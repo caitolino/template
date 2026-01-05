@@ -14,7 +14,7 @@
         <a href="../home.html">go home</a> <br>
     <p>
         <section>
-            <form action="#" method="post">
+            <form <div class = "subsec" id="bowl"> action="#" method="post"</div>>
                 <h2>FORM</h2>
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name" placeholder="Enter your name!"><br>
@@ -24,18 +24,21 @@
                 <input type="password" id="password" name="password" placeholder="Enter your password!"><br>
                 <p>
                      Are you happy?<br>
-                    <label>
+                    <div class="input yes">
+                     <label>
                         <input type="radio" name="path" value="yes">
                         yes<br>
                     </label>
                     <label>
                         <input type="radio" name="path" value="no">
-                        no<br>
+                        yes<br>
                     </label>
+                    </div>
                 </p>
                 <p>
-                     Checkbox<br>
-                    <label>
+                     Checkbox
+                    <div class="input yes">
+                     <label>
                         <input type="checkbox" name="one">
                         one!
                     </label>
@@ -44,6 +47,7 @@
                         <input type="checkbox" name="two">
                         two!
                     </label>
+                    </div>
                 </p>
                 <button type="submit">submit!</button>
             </form>

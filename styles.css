@@ -123,3 +123,27 @@ footer {
 .input.yes {
   color:goldenrod
 }
+.flexcontainer{
+  display: flex;
+  column-gap: 10px;
+  outline: 2px solid coral;
+  border:2px solid rgba(255, 127, 80, 0)
+}
+.flexcontainer div{
+  text-align: center;
+  text-decoration: wavy;
+  height: 40px;
+  width: auto;
+  color: coral;
+  background-color: aliceblue;
+  border: 10px solid peachpuff;
+  flex: 1 1 0%;
+}
+
+#shrink {
+  flex: 0.5 1 auto;
+}
+#grow {
+  flex: 2 0 auto;
+}
+#basis {flex: 1 1 27%;}
